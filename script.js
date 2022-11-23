@@ -48,3 +48,6 @@ async function initData(direction = true) {
         fromMask.value = response.result.toString() || '';
     }
 }
+
+
+// A: where did we call `initData()`?
