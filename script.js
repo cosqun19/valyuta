@@ -47,5 +47,5 @@ async function initData(direction = true) {
 
         fromMask.value = response.result.toString() || '';
     }
-    initData()
 }
+initData()
